@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="I'm a software developer based in Jamaica. I have experienced using tools like Android Studio, Unity 3D and Visual Studio.">
+    <meta name="author" content="Shawn Grant">
+    <link rel="icon" href="img/Logo/icon.png">
+    <title>Shawn Grant | Developer</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <div class="portfolio">
+
+      <div class="about">
+        <img id="main-pic" src="img/Logo/Me_2.png">
+        
+        <h1>Hi, I'm Shawn.</h1><br/>
+        <h4 style="line-height: 2em;">
+          I'm a self-taught software developer with a passion for art and design.<br>
+          I use tools like Android Studio, Unity 3D and Visual Studio. 
+        </h4>
+       
+        <ul id="intro-social">
+          <li><a href="https://www.linkedin.com/in/shawn-grant-431b39109/" target="_black"><i class="bi bi-linkedin"> LinkedIn</i></a></li>
+          <li><a href="https://github.com/shawn-grant" target="_blank"><i class="bi bi-github"> GitHub</i></a></li>
+          <br/>
+          <li>
+            <a id="resume" href="https://docs.google.com/document/d/1PDOooSUSkq_dCKqhsZPk8MBHrpRWa-Kju2_vuGA5Ph0/edit?usp=sharing" target="_blank"><i class="bi bi-box-arrow-up-right"> Resume</i></a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+      </div>
+
+      <div class="tab" id="tab">
+        <button class="tablinks" onclick="openTab('Projects')"><i class="bi bi-terminal"></i> Projects</button>
+        <button class="tablinks" onclick="openTab('Work')"><i class="bi bi-folder"></i> Work</button>
+        <button class="tablinks" onclick="openTab('Skills')"><i class="bi bi-code-slash"></i> Skills</button>
+      </div>
+      
+      <div id="contact">
+        <h2>Let's get in touch</h2><br>
+        <p>here is my contact info</p> <br>
+
+        <ul>
+          <li><a href="http://instagram.com/shawnrgrant" target="_black"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/shawn-grant-431b39109/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="http://github.com/shawn-grant" target="_blank"><i class="bi bi-github"></i></a></li>
+        </ul>
+
+        <br>
+        <p style="font-family:arial;">
+          <i class="bi bi-at"> shawngrant333@gmail.com</i> <br>
+          <i class="bi bi-telephone"> +1(876) 325-0789</i>
+        </p><br/>
+        <small>Designed with 🤍 by yours truly</small>
+      </div>
+    </div>
+
+    <div class="overlay" id="Projects">
+      <div class="content">
+        <br/>
+        <h3><i style="cursor: pointer;" class="bi bi-x" onclick="closeTab('Projects')"></i></h3>
+
+        <h2>My Projects</h2>
+
+        <br/>
+        <div class="container">
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="img/Logo/icon.png"/>
+            </div>
+            <div class="rightalign">
+              <p>
+                <span class="tag">C</span>
+                <span class="tag">UI/UX</span>
+                <span class="tag">console</span>
+                <span class="tag">library</span>
+              </p>
+              <h3>🎨Console Prettify</h3>
+              <p>A simple tool for making good looking UI in C/C++ console applications with little effort</p>
+              <a href="https://github.com/shawn-grant/ConsolePrettify" target="_blank"><i class="bi bi-github"></i> View on GitHub</a>
+            </div>
+          </div>
+          
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="https://play-lh.googleusercontent.com/6fkX0X1OHS3-yzBt8dZ_Z6n7Vcd2tlzZ-JrdKipFwE4m8ZVmdciGLIORmOGF5h8_uvQ=s180-rw"/>
+            </div>
+            <div class="rightalign">
+              <p>
+                <span class="tag">Kotlin</span>
+                <span class="tag">Java</span>
+                <span class="tag">Android</span>
+              </p>
+              <h3>CXC Study Bank</h3>
+              <p>Study Bank is a repository of FREE CSEC and CAPE resources and past papers. Helping students get a headstart to ace their CSEC/CAPE exams.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.cxcstudybank.android" target="_blank"><i class="bi bi-download"></i> Get on Play Store</a>
+            </div>
+          </div>
+
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="img/skoolmate.png"/>
+            </div>
+            <div class="rightalign">
+              <p>
+                <span class="tag">React</span>
+                <span class="tag">Electron</span>
+                <span class="tag">Firebase</span>
+              </p>
+              <h3>Skoolmate</h3>
+              <p>Classroom management software. Allows teachers to communicate with students and manage online meetings</p>
+              <a target="_blank"><i class="bi bi-clock"></i> In Development</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay" id="Work">
+      <div class="content">
+        <br/>
+        <h3><i style="cursor: pointer;" class="bi bi-x" onclick="closeTab('Work')"></i></h3>
+
+        <h2>Work</h2>
+
+        <div class="container">
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="img/Logo/FH.jpg"/>
+            </div>
+            <div class="rightalign">
+              <h3>Hackathon Organizer</h3>
+              <p>FortesHacks (2020)</p>
+              <p>FortesHacks is a 24hr student hackathon at Campion College. Over 60 students from 1st to 6th form spent a day brainstorming and developing software solutions to real world problems.</p>
+              <a href="https://www.instagram.com/forteshacks_hackathon/" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Learn More</a>
+            </div>
+          </div>
+
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="img/Logo/HOL.png"/>
+            </div>
+            <div class="rightalign">
+              <h3>Robotics instructor</h3>
+              <p>Halls Of Learning (2020)</p>
+              <p>I assisted in teaching high school students about robotics at the World Of Tech event hosted by CUSO International. My workshop had students interact with the Cubelets robot to build different things.</p>
+              <a href="https://www.hallsoflearning.com/" target="_blank"><i class="bi bi-box-arrow-up-right"></i> HOL website</a>
+            </div>
+          </div>
+
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="https://sentosa-jm.web.app/static/media/logo.a5e758a9.png"/>
+            </div>
+            <div class="rightalign">
+              <h3>Co founder</h3>
+              <p>Sentosa Software</p>
+              <p>Small software company aimed at creating amazing products to improve quality of life for all.</p>
+              <a target="_blank"><i class="bi bi-clock"></i> Coming soon</a>
+            </div>
+          </div>
+
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="img/Logo/art.png"/>
+            </div>
+            <div class="rightalign">
+              <h3>Graphic Designer</h3>
+              <p>Freelance</p>
+              <p>I do freelance graphic design work (icons/logos, posters, etc) and digital art. See my portfolio below</p>
+              <a href="https://drive.google.com/drive/folders/1aVYojJjRluYsQrrrI8cLhfQIwcznbB_L?usp=sharing" target="_blank"><i class="bi bi-box-arrow-up-right"></i> View portfolio</a>
+            </div>
+          </div>
+
+          <!-- ITEM -->
+          <div class="item">
+            <div class="leftalign">
+              <img src="http://omegarenovation.ca/img/logo_transparent_glow.png"/>
+            </div>
+            <div class="rightalign">
+              <h3>Web Developer</h3>
+              <p>Omega Renovation (2016)</p>
+              <p>I helped create the website for Omega Renovation</p>
+              <a href="http://omegarenovation.ca" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Visit website</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay" id="Skills">
+      <div class="content">
+        <br/>
+        <h3><i style="cursor: pointer;" class="bi bi-x" onclick="closeTab('Skills')"></i></h3>
+
+        <h2>My Skills</h2>
+
+        <ul>
+          <li><i class="devicon-html5-plain colored"></i> HTML 5</li>
+          <li><i class="devicon-javascript-plain colored"></i> JavaScript (node)</li>
+          <li><i class="devicon-react-original colored"></i> ReactJs (jsx)</li>
+          <li><i class="devicon-css3-plain colored"></i> CSS</li>
+          <li><i class="devicon-firebase-plain colored"></i> Firebase</li>
+          <li><i class="devicon-android-plain colored"></i> Android Studio</li>
+          <li><i class="devicon-java-plain colored"></i> Java</li>
+          <li><i class="devicon-kotlin-plain colored"></i> Kotlin</li>
+          <li><i class="devicon-csharp-plain colored"></i> C Sharp</li>
+          <li><i class="devicon-python-plain colored"></i> Python</li>
+          <li><i class="devicon-c-plain colored"></i> C</li>
+          <li><i class="devicon-git-plain colored"></i> Git</li>
+          <li><i class="devicon-visualstudio-plain colored"></i> Visual Studio</li>
+          <li><i class="devicon-gimp-plain colored"></i> GIMP</li>
+          <li><i class="bi bi-controller"></i> Unity3D</li>
+          <li><i class="bi bi-grid-fill"></i> CodeBlocks</li>
+          <li><i class="bi bi-palette"></i> Graphic Design</li>
+          <li><i class="devicon-linux-plain"></i> Linux</li>
+        </ul>
+      </div>
+    </div>
+
+  	<!--my javascript-->
+  	<script src="js/index.js"></script>
+  	<!--bootstrap and jquery JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
