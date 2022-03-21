@@ -39,7 +39,7 @@ function Home() {
             
             <div className="section hero">
                 <h1 id='title'>Shawn Grant</h1>
-                <h2 id='subtitle'>Software Developer | student</h2>
+                <h2 id='subtitle'>Software Developer | Student</h2>
 
                 <br />
                 <div className="socials">
@@ -67,8 +67,19 @@ function Home() {
                 <br />
 
                 <div className="list">
-                    {projects.map((project) =>
-                        <ProjectCard  project={project}/>
+                    {projects.map((project, key) =>
+                        <ProjectCard key={key} project={project}/>
+                    )}
+                </div>
+            </div>
+
+            <div className="section experience">
+                <h1 className='header'>My Projects</h1>
+                <br />
+
+                <div className="list">
+                    {projects.map((project, key) =>
+                        <ProjectCard key={key} project={project}/>
                     )}
                 </div>
             </div>

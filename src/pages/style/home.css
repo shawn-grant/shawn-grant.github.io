@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     height: 100%;
-    align-self: flex-start;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
 }
@@ -34,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    background: #009dff98;
+    background: linear-gradient(0deg, rgba(30,0,139,0.7514356084230567) 0%, rgba(45,172,253,0.7486344879748774) 100%);;
 }
 
 .hero #title {
@@ -82,5 +81,18 @@
 
 .projects{
     color: white;
-    background: #0a0874b4;
+    background: linear-gradient(0deg, rgba(91,0,108,0.7514356084230567) 0%, rgba(30,0,139,0.7486344879748774) 100%);
+}
+
+.projects .list{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.contact{
+    color: white;
+    background: #000000b0;
 }
