@@ -59,7 +59,7 @@ function Home() {
                     </a>
                 </div>
 
-                <a id='resume' href='https://github.com/shawn-grant' target='_blank' rel="noreferrer">
+                <a id='resume' href='https://docs.google.com/document/d/1PDOooSUSkq_dCKqhsZPk8MBHrpRWa-Kju2_vuGA5Ph0/edit?usp=sharing' target='_blank' rel="noreferrer">
                     Resume <i className='bi bi-box-arrow-up-right'/>
                 </a>
             </div>
