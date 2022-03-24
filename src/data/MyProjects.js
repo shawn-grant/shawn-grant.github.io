@@ -1,0 +1,60 @@
+const projects = [
+    {
+        name: 'Devfolders',
+        description: 'A nodeJs CLI tool to change boring folder icons to cool programming related icons.',
+        madeWith: ['Javascript', 'NodeJs', 'CI/CD'],
+        tags: ['CLI'],
+        link: 'https://www.npmjs.com/package/devfolders',
+        linkText: 'Install on NPM',
+    },
+    {
+        name: 'CXC StudyBank',
+        description: 'An Android app for CSEC and CAPE past papers and resources, Helping students get a headstart to ace their exams. Over 10k installs',
+        madeWith: ['Flutter', 'Firebase', 'Kotlin'],
+        tags: ['CLI'],
+        link: 'https://play.google.com/store/apps/details?id=com.cxcstudybank.android',
+        linkText: 'Install on Google Play',
+    },
+    {
+        name: 'Skoolmate',
+        description: 'A learning management software that allows teachers to communicate with students, take attendance and manage online meetings.',
+        madeWith: ['React', 'Javascript', 'Firebase'],
+        tags: ['LMS'],
+        link: 'https://skoolmate.web.app',
+        linkText: 'Visit Website',
+    },
+    {
+        name: '1nReady',
+        description: "A Taxi travel safety app - automatically detects when you’re in a vehicle, tracks your location and lets you send SOS to emergency contacts.",
+        madeWith: ['Flutter', 'Firebase'],
+        tags: ['Safety', 'Taxi', 'Travel'],
+        link: '',
+        linkText: 'in development',
+    },
+    {
+        name: 'Adseekr',
+        description: "Find billborads, signs and other advertising spaces to rent for your next business venture - Or publish your own ad spaces for others to rent.",
+        madeWith: ['React', 'Typescript', 'NodeJs', 'Firebase'],
+        tags: ['Advertising', 'ads', 'billboards'],
+        link: '',
+        linkText: 'in development',
+    },
+    {
+        name: 'ConsolePrettify',
+        description: 'A simple tool for making a good looking UI in C/C++ console applications with little effort.',
+        madeWith: ['C/C++'],
+        tags: ['UI'],
+        link: 'https://github.com/shawn-grant/ConsolePrettify',
+        linkText: 'View on GitHub',
+    },
+    {
+        name: 'Skedooli',
+        description: 'A desktop timetable and notes app for work/school.',
+        madeWith: ['Flutter', 'win32'],
+        tags: ['UI'],
+        link: 'https://skedooli.web.app',
+        linkText: 'Visit Website',
+    },
+];
+
+export default projects;

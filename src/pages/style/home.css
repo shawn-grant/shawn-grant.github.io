@@ -1,8 +1,137 @@
 .Home{
     padding: 0;
     margin: 0;
+    height: 100%;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
 }
 
-.vanta-canvas{
-    
+#vanta-bg{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    position: fixed;   
+}
+
+.section {
+    padding: 20px;
+    margin: 0;
+    height: 100%;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section .header{
+    width: fit-content;
+    text-decoration: underline;
+    color: white;
+}
+
+.hero{
+    color: white;
+    background: linear-gradient(0deg, rgba(98, 0, 255, 0.754) 0%, rgba(0, 157, 255, 0.754) 100%);;
+}
+
+.hero #title {
+    width: fit-content;
+    text-decoration: underline;
+    font-size: 5em;
+    box-shadow: inset 0 0 0 0 #FFF;
+    color: #FFF;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.hero #title:hover {
+    box-shadow: inset 500px 0 0 0 #fff;
+    color: #000;
+}
+
+.hero .socials{
+    font-size: 2em;
+}
+
+.hero .socials a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.6s;
+}
+.hero .socials a:hover{
+    color: white;
+}
+
+.hero #resume{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    width: fit-content;
+    box-shadow: inset 0 0 0 0 #FFF;
+    transition: all .6s ease-in-out;
+}
+.hero #resume:hover{
+    box-shadow: inset 100px 0 0 0 #fff;
+}
+
+.projects{
+    color: white;
+    background: linear-gradient(0deg, rgba(128, 0, 96, 0.751) 0%, rgba(98, 0, 255, 0.754) 100%);
+}
+
+.projects .list{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.experience{
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 13, 201, 0.754) 0%, rgba(128, 0, 96, 0.751) 100%);;
+}
+
+.experience .list{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.experience .list .skill{
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 25px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: auto;
+}
+
+.contact{
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.959) 0%, rgba(0, 13, 201, 0.754) 100%);;
+}
+
+.contact .header{
+    text-align: center;
+    display: block;
+    width: initial;
+}
+.contact .socials{
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.contact .socials a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    transition: all 0.6s;
+}
+.contact .socials a:hover{
+    color: white;
 }
