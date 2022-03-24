@@ -18,10 +18,12 @@ function ProjectCard({project}) {
             <br />
 
             {project.link !== ''
-                ? <a className='link' href={project.link}>
+                ? <a className='link' href={project.link} target='_blank' rel="noreferrer">
                     {project.linkText} <i className='bi bi-box-arrow-up-right'/>
                 </a>
-                : <button className='no-link'  disabled>No link</button>
+                : <button className='no-link' disabled>
+                    {project.linkText} <i className='bi bi-clock-history' />
+                </button>
             }
             
         </div>

@@ -2,10 +2,32 @@
     background: rgba(0, 0, 0, 0.699);
     color: white;
     padding: 15px;
-    width: 18em !important;
+    width: 20em;
     height: 20em;
+    flex-grow: 0;
+    flex-shrink: 0;
     margin-right: 10px;
     scroll-snap-align: start;
+    position: relative;
+    transition: all .6s ease-in-out;
+}
+/* 
+.ProjectCard:hover {
+    --angle: 0deg;
+    border: 1px solid;
+    border-image: linear-gradient(var(--angle), #00ff2a, #fff023, #0004ff, #ff3298) 1;
+    animation: 5s rotate linear infinite;
+} */
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
 }
 
 .ProjectCard .title{
@@ -25,7 +47,9 @@
 }
 
 .ProjectCard .link{
-    float: right;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
     color: white;
     padding: 3px 10px;
     border: 2px solid white;
@@ -36,4 +60,15 @@
 .ProjectCard .link:hover{
     box-shadow: inset 200px 0 0 0 #fff;
     color: black;
+}
+
+.ProjectCard .no-link{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: rgb(128, 128, 128);
+    background: none;
+    padding: 3px 10px;
+    border: 2px solid rgb(128, 128, 128);
+    text-decoration: none;
 }

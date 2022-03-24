@@ -19,7 +19,10 @@
     padding: 20px;
     margin: 0;
     height: 100%;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section .header{
@@ -29,11 +32,8 @@
 }
 
 .hero{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     color: white;
-    background: linear-gradient(0deg, rgba(30,0,139,0.7514356084230567) 0%, rgba(45,172,253,0.7486344879748774) 100%);;
+    background: linear-gradient(0deg, rgba(98, 0, 255, 0.754) 0%, rgba(0, 157, 255, 0.754) 100%);;
 }
 
 .hero #title {
@@ -81,18 +81,57 @@
 
 .projects{
     color: white;
-    background: linear-gradient(0deg, rgba(91,0,108,0.7514356084230567) 0%, rgba(30,0,139,0.7486344879748774) 100%);
+    background: linear-gradient(0deg, rgba(128, 0, 96, 0.751) 0%, rgba(98, 0, 255, 0.754) 100%);
 }
 
 .projects .list{
     display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
 }
 
+.experience{
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 13, 201, 0.754) 0%, rgba(128, 0, 96, 0.751) 100%);;
+}
+
+.experience .list{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.experience .list .skill{
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 25px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: auto;
+}
+
 .contact{
     color: white;
-    background: #000000b0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.959) 0%, rgba(0, 13, 201, 0.754) 100%);;
+}
+
+.contact .header{
+    text-align: center;
+    display: block;
+    width: initial;
+}
+.contact .socials{
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.contact .socials a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    transition: all 0.6s;
+}
+.contact .socials a:hover{
+    color: white;
 }

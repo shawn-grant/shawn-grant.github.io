@@ -4,6 +4,8 @@ import * as THREE from 'three'
 import WAVES from 'vanta/dist/vanta.waves.min'
 import projects from '../data/MyProjects';
 import ProjectCard from '../components/ProjectCard';
+import experience from '../data/MyExperience';
+import ExperienceCard from './../components/ExperienceCard';
 
 function Home() {
     const [vantaEffect, setVantaEffect] = useState();
@@ -43,29 +45,35 @@ function Home() {
 
                 <br />
                 <div className="socials">
-                    <a href='https://github.com/shawn-grant'>
+                    <a href='https://github.com/shawn-grant' target='_blank' rel="noreferrer">
                         <i className='bi bi-github'/>
                     </a>
-                    <a href='https://github.com/shawn-grant'>
+                    <a href='https://www.linkedin.com/in/shawn-grant-431b39109/' target='_blank' rel="noreferrer">
                         <i className='bi bi-linkedin'/>
                     </a>
-                    <a href='https://instagram.com/shawnrgrant'>
+                    <a href='https://instagram.com/shawnrgrant' target='_blank' rel="noreferrer">
                         <i className='bi bi-instagram'/>
                     </a>
-                    <a href='mailto:shawngrant333@gmail.com'>
+                    <a href='mailto:shawngrant333@gmail.com' target='_blank' rel="noreferrer">
                         <i className='bi bi-envelope'/>
                     </a>
                 </div>
 
-                <a id='resume' href='https://github.com/shawn-grant'>
+                <a id='resume' href='https://github.com/shawn-grant' target='_blank' rel="noreferrer">
                     Resume <i className='bi bi-box-arrow-up-right'/>
                 </a>
             </div>
 
             <div className="section projects">
-                <h1 className='header'>My Projects</h1>
+                <h3 style={{ textAlign: 'center', margin:'0px' }}>Hi there,</h3>
+                <p style={{ textAlign: 'center', fontWeight:'bold' }}>
+                    I'm a software developer &amp; CS student with a passion for art and design. <br />
+                    I enjoy creating and learning new things.
+                </p>
                 <br />
-
+                <br />
+                
+                <h1 className='header'>My Projects</h1>
                 <div className="list">
                     {projects.map((project, key) =>
                         <ProjectCard key={key} project={project}/>
@@ -74,18 +82,58 @@ function Home() {
             </div>
 
             <div className="section experience">
-                <h1 className='header'>My Projects</h1>
+                <h1 className='header'>Skills</h1>
+                <div className="list">
+                    <span className='skill'>HTML &amp; CSS</span>
+                    <span className='skill'>Javascript</span>
+                    <span className='skill'>Typescript</span>
+                    <span className='skill'>Flutter</span>
+                    <span className='skill'>Node.js</span>
+                    <span className='skill'>React.js</span>
+                    <span className='skill'>Firebase</span>
+                    <span className='skill'>Android (Kotlin)</span>
+                    <span className='skill'>SASS</span>
+                    <span className='skill'>C#</span>
+                    <span className='skill'>SQL</span>
+                    <span className='skill'>Unity3D</span>
+                    <span className='skill'>Java</span>
+                    <span className='skill'>C/C++</span>
+                    <span className='skill'>Python</span>
+                    <span className='skill'>Git</span>
+                </div>
+                <h1 className='header'>Experience</h1>
                 <br />
 
                 <div className="list">
-                    {projects.map((project, key) =>
-                        <ProjectCard key={key} project={project}/>
+                    {experience.map((exp, key) =>
+                        <ExperienceCard key={key} experience={exp}/>
                     )}
                 </div>
             </div>
 
             <div className="section contact">
-                <small>Designed with 🤍 by yours truly</small>
+                <h1 className='header'>Get In Touch</h1>
+                <br />
+
+                <div className="socials">
+                    <a href='https://github.com/shawn-grant' target='_blank' rel="noreferrer">
+                        <i className='bi bi-github'/>
+                    </a>
+                    <a href='https://www.linkedin.com/in/shawn-grant-431b39109/' target='_blank' rel="noreferrer">
+                        <i className='bi bi-linkedin'/>
+                    </a>
+                    <a href='https://instagram.com/shawnrgrant' target='_blank' rel="noreferrer">
+                        <i className='bi bi-instagram'/>
+                    </a>
+                    <a href='mailto:shawngrant333@gmail.com' target='_blank' rel="noreferrer">
+                        <i className='bi bi-envelope'/>
+                    </a>
+                </div>
+                <br />
+                <br />
+                <br />
+
+                <small style={{textAlign: 'center'}}>Designed with 🤍 by yours truly</small>
             </div>
           
         </div>
