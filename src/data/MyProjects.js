@@ -25,7 +25,7 @@ const projects = [
     },
     {
         name: '1nReady',
-        description: "A Taxi travel safety app - automatically detects when you’re in a vehicle, tracks your location and lets you send SOS to emergency contacts.",
+        description: "A Taxi travel safety app - automatically detects when you’re in a vehicle, tracks your location and lets you send SOS to emergency contacts. ",
         madeWith: ['Flutter', 'Firebase'],
         tags: ['Safety', 'Taxi', 'Travel'],
         link: '',
@@ -36,8 +36,8 @@ const projects = [
         description: "Find billborads, signs and other advertising spaces to rent for your next business venture - Or publish your own ad spaces for others to rent.",
         madeWith: ['React', 'Typescript', 'NodeJs', 'Firebase'],
         tags: ['Advertising', 'ads', 'billboards'],
-        link: '',
-        linkText: 'in development',
+        link: 'https://adseekr.web.app/',
+        linkText: 'Preview (alpha)',
     },
     {
         name: 'ConsolePrettify',
