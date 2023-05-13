@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(60, 51, 60); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(30, 20, 160);
+  background: linear-gradient(180deg, rgba(30, 20, 160, 1) 0%, rgb(120, 20, 160) 50%, rgb(157, 9, 63));
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(61, 114, 194); 
+}
