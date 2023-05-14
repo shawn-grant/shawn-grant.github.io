@@ -36,7 +36,7 @@
             a{
                 margin-right: 20px;
                 text-decoration: none;
-                color: rgb(88, 97, 150);
+                color: rgb(162, 166, 189);
                 transition: all 0.5s;
                 
                 &:hover{
@@ -56,9 +56,9 @@
             transition: all .5s ease-in-out;
             
             &:hover{
-                box-shadow: inset 100px 0 0 0 #fff;
+                box-shadow: inset 200px 0 0 0 #fff;
                 color: #000;
-                font-weight: bold;
+                // font-weight: bold;
             }
         }
     }
