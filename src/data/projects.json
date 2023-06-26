@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Devfolders",
+        "description": "A nodeJs CLI tool to change boring folder icons to cool programming related icons.",
+        "madeWith": ["Javascript", "NodeJs", "CI/CD"],
+        "tags": ["CLI"],
+        "liveUrl": "https://www.npmjs.com/package/devfolders",
+        "sourceUrl": "https://github.com/shawn-grant/devfolders"
+    },
+    {
+        "name": "CXC StudyBank",
+        "description": "An Android app for CSEC and CAPE past papers and resources, Helping students get a headstart to ace their exams. Over 10k installs",
+        "madeWith": ["Flutter", "Firebase", "Kotlin"],
+        "tags": ["CLI"],
+        "liveUrl": "https://play.google.com/store/apps/details?id=com.cxcstudybank.android",
+        "sourceUrl": ""
+    },
+    {
+        "name": "Skoolmate",
+        "description": "A learning management software that allows teachers to communicate with students, take attendance and manage online meetings.",
+        "madeWith": ["React", "Javascript", "Firebase"],
+        "tags": ["LMS"],
+        "liveUrl": "https://skoolmate.web.app",
+        "sourceUrl": ""
+    },
+    {
+        "name": "1nReady",
+        "description": "A Taxi travel safety app - automatically detects when you're in a vehicle, tracks your location and lets you send SOS to emergency contacts. ",
+        "madeWith": ["Flutter", "Firebase"],
+        "tags": ["Safety", "Taxi", "Travel"],
+        "liveUrl": "",
+        "sourceUrl": ""
+    },
+    {
+        "name": "Adseekr",
+        "description": "Find billborads, signs and other advertising spaces to rent for your next business venture - Or publish your own ad spaces for others to rent.",
+        "madeWith": ["React", "Typescript", "NodeJs", "Firebase"],
+        "tags": ["Advertising", "ads", "billboards"],
+        "liveUrl": "https://adseekr.web.app/",
+        "sourceUrl": ""
+    },
+    {
+        "name": "ConsolePrettify",
+        "description": "A simple tool for making a good looking UI in C/C++ console applications with little effort.",
+        "madeWith": ["C/C++"],
+        "tags": ["UI"],
+        "liveUrl": "https://github.com/shawn-grant/ConsolePrettify",
+        "sourceUrl": "https://github.com/shawn-grant/ConsolePrettify"
+    },
+    {
+        "name": "Skedooli",
+        "description": "A desktop timetable and notes app for work/school.",
+        "madeWith": ["Flutter", "win32"],
+        "tags": ["UI"],
+        "liveUrl": "https://skedooli.web.app",
+        "sourceUrl": ""
+    }
+]

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import projects from "../../data/projects.json"
 import './projects.scss'
 
 function ProjectSection() {
@@ -7,8 +8,8 @@ function ProjectSection() {
             <h1>My Projects</h1>
 
             <div className="list">
-                {Array(4).fill(0).map((_, i) =>
-                   <ProjectCard key={i} />
+                {projects.map((project, i) =>
+                    <ProjectCard key={i} project={project} />
                 )}
             </div>
           
@@ -16,13 +17,25 @@ function ProjectSection() {
     )
 }
 
-function ProjectCard() {
+
+interface CardProps {
+    project: {
+        name: string;
+        description: string;
+        madeWith: string[];
+        tags: string[];
+        liveUrl: string;
+        sourceUrl: string;
+    }
+}
+
+function ProjectCard({project}: CardProps) {
     const card = useRef<HTMLDivElement>(null)
     const blob = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
         card.current?.addEventListener("mousemove", function(event) {
-            blob.current!.style.display = "block";
+            blob.current!.classList.add("show");
             var containerRect = card.current?.getBoundingClientRect();
             var x = event.clientX - (containerRect?.left ?? 0) - (blob.current?.clientWidth ?? 0) / 2;
             var y = event.clientY - (containerRect?.top ?? 0) - (blob.current?.clientHeight ?? 0) / 2;
@@ -31,15 +44,40 @@ function ProjectCard() {
         });
         
         card.current?.addEventListener("mouseleave", function (event) {
-            blob.current!.style.display = "none";
+            blob.current!.classList.remove("show");
         });
     }, [])
 
     return (
         <div ref={card} className="project-card">
             <div ref={blob} className="blob"></div>
-            <h1 className='name'>Console Prettify</h1>
-            <p>A simple tool for making a good looking UI in C/C++ console applications with little effort.</p>
+            <h1 className='name'>{project.name}</h1>
+            <p className='desc'>{project.description}</p>
+
+            <div className="tech-stack">
+                <span><i className='bi-code-slash'/> Made With:</span>
+                <ul>
+                    {project.madeWith.map((tech, i) =>
+                        <li key={i}>{tech}</li>
+                    )}
+                </ul>
+            </div>
+            
+            <div className="links">
+                {project.sourceUrl !== "" &&
+                    <a href={project.sourceUrl} target='_blank' rel="noreferrer">
+                        <i className='bi bi-github' /> View Source 
+                    </a>
+                }
+                {project.liveUrl == ""
+                    ? <a href="#" rel="noreferrer" className='disabled'>
+                        Unpublished <i className='bi bi-hourglass-split' />
+                    </a>
+                    : <a href={project.liveUrl} target='_blank' rel="noreferrer">
+                        View Live <i className='bi bi-box-arrow-up-right' />
+                    </a>
+                }
+            </div>
         </div>
     );
 }
