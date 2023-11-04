@@ -1,19 +1,35 @@
 [
     {
+        "name": "LectureLytics",
+        "description": "A platform that uses generative AI to make note-taking and studying easier and more accessible to students by summarizing lectures and generating study materials. This project won the 2023 Microsoft Hackathon @UTech.",
+        "madeWith": ["PaLM 2", "Azure AI", "Google Cloud", "Typescript", "React"],
+        "tags": ["AI", "LLM", "Education"],
+        "liveUrl": "https://lecturelytics.web.app",
+        "sourceUrl": ""
+    },
+    {
+        "name": "UTech Explore",
+        "description": "A mobile app that gives students precise directions to classrooms and other locations across the university campus and stay up to date with university events.",
+        "madeWith": ["Flutter", "Firebase", "OpenStreetMaps"],
+        "tags": ["Navigation", "Education", "Maps"],
+        "liveUrl": "https://play.google.com/store/apps/details?id=club.cursortech.classfinder",
+        "sourceUrl": ""
+    },
+    {
+        "name": "CXC StudyBank",
+        "description": "An Android app for CSEC and CAPE past papers and resources, Helping students get a headstart to ace their exams. Over 10k installs.",
+        "madeWith": ["Flutter", "Firebase", "Kotlin"],
+        "tags": ["Android", "Education", "CXC"],
+        "liveUrl": "https://play.google.com/store/apps/details?id=com.cxcstudybank.android",
+        "sourceUrl": ""
+    },
+    {
         "name": "Devfolders",
         "description": "A nodeJs CLI tool to change boring folder icons to cool programming related icons.",
         "madeWith": ["Javascript", "NodeJs", "CI/CD"],
         "tags": ["CLI"],
         "liveUrl": "https://www.npmjs.com/package/devfolders",
         "sourceUrl": "https://github.com/shawn-grant/devfolders"
-    },
-    {
-        "name": "CXC StudyBank",
-        "description": "An Android app for CSEC and CAPE past papers and resources, Helping students get a headstart to ace their exams. Over 10k installs",
-        "madeWith": ["Flutter", "Firebase", "Kotlin"],
-        "tags": ["CLI"],
-        "liveUrl": "https://play.google.com/store/apps/details?id=com.cxcstudybank.android",
-        "sourceUrl": ""
     },
     {
         "name": "Skoolmate",
@@ -25,7 +41,7 @@
     },
     {
         "name": "1nReady",
-        "description": "A Taxi travel safety app - automatically detects when you're in a vehicle, tracks your location and lets you send SOS to emergency contacts. ",
+        "description": "A Taxi travel safety app - automatically detects when you're in a vehicle, tracks your location and lets you send SOS to emergency contacts.",
         "madeWith": ["Flutter", "Firebase"],
         "tags": ["Safety", "Taxi", "Travel"],
         "liveUrl": "",
@@ -50,7 +66,7 @@
     {
         "name": "Skedooli",
         "description": "A desktop timetable and notes app for work/school.",
-        "madeWith": ["Flutter", "win32"],
+        "madeWith": ["Flutter", "win32 API"],
         "tags": ["UI"],
         "liveUrl": "https://skedooli.web.app",
         "sourceUrl": ""

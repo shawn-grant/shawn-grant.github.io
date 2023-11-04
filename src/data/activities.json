@@ -1,0 +1,30 @@
+[
+    {
+        "title": "CVM Interview: Microsoft Hackathon",
+        "subtitle": "Interview with the winners of the Microsoft Day Hackathon at UTech.",
+        "type": "youtube",
+        "date": "OCTOBER 2023",
+        "resource": "https://www.youtube.com/embed/ztm6akWPre8?si=zNOqS1nlHVrQjjBC"
+    },
+    {
+        "title": "1st Place - Sagicor Innovation Challenge",
+        "subtitle": "My team won the 2023 Sagicor Innovation Challenge.",
+        "type": "image",
+        "date": "JUNE 2023",
+        "resource": "/images/sagicor-challenge.jpg"
+    },
+    {
+        "title": "Microsoft Certified: Azure Fundamentals",
+        "subtitle": "I passed the Microsoft Certified: Azure Fundamentals exam.",
+        "type": "badge",
+        "date": "MARCH 2023",
+        "resource": "/images/microsoft-az900.png"
+    },
+    {
+        "title": "AWS Certified Cloud Practitioner",
+        "subtitle": "I passed the AWS Certified Cloud Practitioner exam.",
+        "type": "badge",
+        "date": "OCTOBER 2022",
+        "resource": "/images/aws-ccp.png"
+    }
+]
