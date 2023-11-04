@@ -1,0 +1,18 @@
+.Navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 3px;
+
+    .nav-link{
+        color: rgb(223, 223, 223);
+        font-size: 1em;
+        text-decoration: none;
+        padding: 0 10px;
+
+        &:hover{
+            color: rgb(255, 255, 255);
+        }
+    }
+
+}

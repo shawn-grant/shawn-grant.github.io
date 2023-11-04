@@ -1,0 +1,49 @@
+.HomePage{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 4px 30px;
+    
+    .bg{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        
+        &.first{
+            background: url('../../assets/mesh-24.png') no-repeat top left fixed;
+            background-size: cover;
+            position: fixed;
+        }
+        &.second{
+            background: url('../../assets/mesh-523.png') no-repeat top left fixed;
+            background-size: cover;
+            position: fixed;
+            opacity: 0;
+            animation: bgFadeIn 30s 7s ease-in-out infinite;
+        }
+
+        @keyframes bgFadeIn {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+
+    .about{
+        text-align: center;
+        padding: 1em 10%;
+
+        img{
+            width: 24px;
+        }
+    }
+}
