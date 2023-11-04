@@ -5,7 +5,6 @@ export default function ActivitiesSection() {
     return (
         <div className='ActivitiesSection' id='activities'>
             <div className="content">
-
                 <h1>Activities</h1>
                 <p>My certificates, awards and other activities.</p>
 
@@ -31,6 +30,11 @@ export default function ActivitiesSection() {
                             }
                         </div>
                     )}
+
+                </div>
+
+                <div className="arrow">
+                    <i className="bi-caret-right-fill" />
                 </div>
             </div>
         </div>

@@ -5,6 +5,7 @@
 
     .content{
         width: clamp(300px, 100%, 1100px);
+        position: relative;
     }
     
     .list{
@@ -17,8 +18,8 @@
             margin: 0.5em;
             border: 1px solid #787878;
             border-radius: 6px;
-            position: relative;
             overflow: hidden;
+            position: relative;
             padding: 15px;
             backdrop-filter: blur(5px);
 
@@ -68,6 +69,25 @@
                     object-fit: contain;
                 }
             }
+        }
+    }
+
+    .arrow{
+        position: absolute;
+        top: 60%;
+        right: 0;
+        transform: translateY(-50%) translateX(30%);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #cecece8e;
+        color: rgb(255, 255, 255);
+        text-align: center;
+
+        i{
+            font-size: 1.5em;
+            font-weight: 600;
+            line-height: 40px;
         }
     }
 }
