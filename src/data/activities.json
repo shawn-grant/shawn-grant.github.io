@@ -26,5 +26,12 @@
         "type": "badge",
         "date": "OCTOBER 2022",
         "resource": "/images/aws-ccp.png"
+    },
+    {
+        "title": "GDSC Solution Challenge",
+        "subtitle": "Certificate awarded for submitting an entry to the Google Developer Student Clubs Solution Challenge.",
+        "type": "image",
+        "date": "2022",
+        "resource": "/images/solution-challenge.png"
     }
 ]
