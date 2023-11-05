@@ -5,12 +5,15 @@ import './projects.scss'
 function ProjectSection() {
     return (
         <div className='ProjectSection' id='projects'>
-            <h1>My Projects</h1>
+            <div className="content">
+                <h1>My Projects</h1>
+                <p>Projects I've worked on myself and on teams.</p>
 
-            <div className="list">
-                {projects.map((project, i) =>
-                    <ProjectCard key={i} project={project} />
-                )}
+                <div className="list">
+                    {projects.map((project, i) =>
+                        <ProjectCard key={i} project={project} />
+                    )}
+                </div>
             </div>
           
         </div>
