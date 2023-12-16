@@ -16,7 +16,7 @@ function HeroSection() {
             <div className="content">
                 <h3>Hi <span>👋</span>, I'm</h3>
                 <h1 className='title'>{characters || 'Shawn Grant'}</h1>
-                <h2 className='subtitle'>React && Flutter Developer</h2>
+                <h2 className='subtitle'>Software Developer</h2>
                 <br />
                 <div className="socials">
                     <a href='https://github.com/shawn-grant' target='_blank' rel="noreferrer">
