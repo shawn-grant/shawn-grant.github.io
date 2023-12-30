@@ -7,7 +7,7 @@ function ProjectSection() {
         <div className='ProjectSection' id='projects'>
             <div className="content">
                 <h1>My Projects</h1>
-                <p>Projects I've worked on myself and on teams.</p>
+                <p>Projects I've worked on myself and in teams.</p>
 
                 <div className="list">
                     {projects.map((project, i) =>
@@ -15,7 +15,6 @@ function ProjectSection() {
                     )}
                 </div>
             </div>
-          
         </div>
     )
 }

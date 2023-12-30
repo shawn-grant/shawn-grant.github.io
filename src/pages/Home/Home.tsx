@@ -20,8 +20,8 @@ export default function HomePage() {
 
       <br />
       <div className="about">
-        I'm a software developer & Computer Science student based in Jamaica <img src={jmFlag} alt="" />, with a passion for art and design. <br />
-        I enjoy creating and learning new things.
+        I'm a 22yo computer science student & software developer based in Jamaica <img src={jmFlag} alt="" />, with a passion for art and design. <br />
+        I love learning new things and using technology to build solutions to the problems around me.
       </div>
       <br />
 
