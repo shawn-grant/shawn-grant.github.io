@@ -1,5 +1,12 @@
 [
     {
+        "title": "Microsoft Internship",
+        "subtitle": "I accepted a Software Engineer Intern offer from Microsoft.",
+        "type": "image",
+        "date": "SUMMER 2024",
+        "resource": "/images/msft-sign-pic.jpeg"
+    },
+    {
         "title": "Microsoft Certified: Azure AI Engineer Associate",
         "subtitle": "I passed the 'Designing and Implementing a Microsoft Azure AI Solution' exam.",
         "type": "badge",

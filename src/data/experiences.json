@@ -1,52 +1,98 @@
 [
-    {
-        "company": "Apps Design Jamaica",
-        "position": "Software Developer",
-        "industry": "client software",
-        "details": "I designed and built complete mobile applications and websites for our clients. I also onboarded new developers to existing projects.",
-        "skills": ["React", "Flutter", "PostgreSQL", "Firebase", "Typescript", "linux"],
-        "startDate": "OCT 2022",
-        "endDate": "SEPT 2023",
-        "infoUrl": ""
-    },
-    {
-        "company": "Omega Renovation Inc.",
-        "position": "Web Developer",
-        "industry": "construction & home renovation",
-        "details": "Omega Renovation is a home/office renovations and remodelling company based in Ontario, Canada. I created and currently maintain the official company website.",
-        "skills": ["Next.js", "Typescript"],
-        "startDate": "JAN 2023",
-        "endDate": "PRESENT",
-        "infoUrl": "https://omegarenovation.ca"
-    },
-    {
-        "company": "Particular Presence Technologies",
-        "position": "Software Engineering Intern",
-        "industry": "client software",
-        "details": "I worked with a skilled team to build high-quality, scalable applications using AWS. I also served as interim UI developer.",
-        "skills": ["Figma", "React", "Flutter", "Typescript", "AWS", "Firebase"],
-        "startDate": "JUN 2022",
-        "endDate": "SEPT 2022",
-        "infoUrl": ""
-    },
-    {
-        "company": "Google Developer Student Club - UTECH chapter",
-        "position": "President & Lead Developer",
-        "industry": "student organization",
-        "details": "DSC is a community where students can build their technological skills, by exposing them to programming, data analytics, ML etc. I organized and led the club's activities, and also served as lead developer on projects like UTech Explore and 1nReady.",
-        "skills": ["Leadership", "Software Development", "Public Speaking", "Teamwork"],
-        "startDate": "AUG 2022",
-        "endDate": "MAY 2024",
-        "infoUrl": "https://cursortech.club"
-    },
-    {
-        "company": "Fortes-Hacks Hackathon",
-        "position": "Co-founder & Mentor",
-        "industry": "student hackathon",
-        "details": "I co-founded and organized the FortesHacks 24-hour student hackathon competition at Campion College in 2020 with over 60 high school participants. I also mentored teams and conducted a workshop on cybersecurity.",
-        "skills": ["Figma", "React", "Flutter", "Typescript", "AWS", "GCP"],
-        "startDate": "JAN 2020",
-        "endDate": "",
-        "infoUrl": "https://www.instagram.com/forteshacks_hackathon/"
-    }
+	{
+		"company": "Microsoft Corporation",
+        "companyLogo": "/images/logos/microsoft.jpg",
+		"position": "Software Engineering Intern",
+		"industry": "AI, Cloud, Gaming, etc.",
+		"details": "I interned at Microsoft at their HQ in Washington, USA where I created a data visualization package for Microsoft Viva and implemented a new design palette for charting in Fluent UI. I was also apart of the first batch of interns recruited from universities in the Caribbean.",
+		"skills": ["React", "Typescript", "Jest", "Azure DevOps", "Fluent UI"],
+		"startDate": "MAY 2024",
+		"endDate": "AUG 2024",
+		"infoUrl": "https://www.linkedin.com/posts/shawnrgrant_microsoftintern-techjourney-activity-7198846853646364672-Rebd"
+	},
+	{
+		"company": "EduHub Company Ltd.",
+        "companyLogo": "/images/logos/eduhub.png",
+		"position": "Software Engineer",
+		"industry": "Education",
+		"details": "I work with a small team developing educational software solutions for students and teachers. I primarily work on our flagship product EduHub StudySmart.",
+		"skills": ["Flutter", "Firebase", "Vue", "Typescript"],
+		"startDate": "MAY 2024",
+		"endDate": "AUG 2024",
+		"infoUrl": "https://play.google.com/store/apps/details?id=com.vector.eduhub_academy&pli=1"
+	},
+	{
+		"company": "Apps Design Jamaica",
+		"companyLogo": "/images/logos/generic.png",
+		"position": "Software Developer",
+		"industry": "client software",
+		"details": "I designed and built complete mobile applications and websites for our clients. I also onboarded new developers to existing projects.",
+		"skills": [
+			"React",
+			"Flutter",
+			"PostgreSQL",
+			"Firebase",
+			"Typescript",
+			"linux"
+		],
+		"startDate": "OCT 2022",
+		"endDate": "SEPT 2023",
+		"infoUrl": ""
+	},
+	{
+		"company": "Omega Renovation Inc.",
+		"companyLogo": "/images/logos/omegarenovation.png",
+		"position": "Web Developer",
+		"industry": "construction & home renovation",
+		"details": "Omega Renovation is a home/office renovations and remodelling company based in Ontario, Canada. I created and currently maintain the official company website.",
+		"skills": ["Next.js", "Typescript"],
+		"startDate": "JAN 2023",
+		"endDate": "PRESENT",
+		"infoUrl": "https://omegarenovation.ca"
+	},
+	{
+		"company": "Particular Presence Technologies",
+		"companyLogo": "/images/logos/ppt.png",
+		"position": "Software Engineering Intern",
+		"industry": "client software",
+		"details": "I worked with a skilled team to build high-quality, scalable applications using AWS. I also served as interim UI developer.",
+		"skills": [
+			"Figma",
+			"React",
+			"Flutter",
+			"Typescript",
+			"AWS",
+			"Firebase"
+		],
+		"startDate": "JUN 2022",
+		"endDate": "SEPT 2022",
+		"infoUrl": ""
+	},
+	{
+		"company": "Google Developer Student Club - UTECH chapter",
+		"companyLogo": "/images/logos/gdsc.png",
+		"position": "President & Lead Developer",
+		"industry": "student organization",
+		"details": "DSC is a community where students can build their technological skills, by exposing them to programming, data analytics, ML etc. I organized and led the club's activities, and also served as lead developer on projects like UTech Explore and 1nReady.",
+		"skills": [
+			"Leadership",
+			"Software Development",
+			"Public Speaking",
+			"Teamwork"
+		],
+		"startDate": "AUG 2022",
+		"endDate": "MAY 2024",
+		"infoUrl": "https://futuredevs.club"
+	},
+	{
+		"company": "Fortes-Hacks Hackathon",
+		"companyLogo": "/images/logos/forteshacks.jpg",
+		"position": "Co-founder & Mentor",
+		"industry": "student hackathon",
+		"details": "I co-founded and organized the FortesHacks 24-hour student hackathon competition at Campion College in 2020 with over 60 high school participants. I also mentored teams and conducted a workshop on cybersecurity.",
+		"skills": ["Figma", "React", "Flutter", "Typescript", "AWS", "GCP"],
+		"startDate": "JAN 2020",
+		"endDate": "",
+		"infoUrl": "https://www.instagram.com/forteshacks_hackathon/"
+	}
 ]

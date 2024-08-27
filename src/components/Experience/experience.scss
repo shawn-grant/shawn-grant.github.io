@@ -34,17 +34,28 @@
             .duration{
                 margin: 0;
                 font-weight: bold;
-                color: gray;
+                color: rgb(153, 178, 192);
             }
-            .position{
-                font-size: 1.3em;
-                font-weight: 600;
-                margin: 0;
-            }
-            .company{
-                font-size: 1em;
-                font-weight: 600;
-                margin: 0;
+            .head{
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+
+                img{
+                    height: 2.7em;
+                    object-fit: contain;
+                    margin-right: 10px;
+                }
+                .position{
+                    font-size: 1.3em;
+                    font-weight: 600;
+                    margin: 0;
+                }
+                .company{
+                    font-size: 1em;
+                    font-weight: 600;
+                    margin: 0;
+                }
             }
             .details{
                 font-size: 1em;

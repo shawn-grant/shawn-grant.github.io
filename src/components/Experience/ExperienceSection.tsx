@@ -23,9 +23,14 @@ export default function ExperienceSection() {
                 <div className="list">
                     {experiences.map((exp, i) =>
                         <div key={i} className='card'>
+                            <div className="head">
+                                <img src={exp.companyLogo} alt="" />
+                                <div className="desc">
+                                    <p className='company'>{exp.company}</p>
+                                    <p className='position'>{exp.position}</p>
+                                </div>
+                            </div>
                             <p className='duration'>{exp.startDate} - {exp.endDate}</p>
-                            <p className='position'>{exp.position},</p>
-                            <p className='company'>{exp.company}</p>
                             <p className='details'>{exp.details}</p>
 
                             <div className="buttons">
