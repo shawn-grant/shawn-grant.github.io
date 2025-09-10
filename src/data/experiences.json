@@ -1,5 +1,16 @@
 [
 	{
+		"company": "Intellibus (Intelligent Business Platforms)",
+        "companyLogo": "/images/logos/intellibus.jpg",
+		"position": "Software Engineer Consultant",
+		"industry": "AI, Cloud, FinTech, etc.",
+		"details": "I conducted rigorous software stability reviews for a large fintech company, identifying vulnerabilities and problems in application code/infrastructure, and worked on an AI knowledge graph with Zoom API integration to store client meeting data and help us automate future stability reviews using RAG.",
+		"skills": ["React", "Typescript", "Neo4j", "OpenAI", ""],
+		"startDate": "APR 2025",
+		"endDate": "OCT 2025",
+		"infoUrl": "https://intellibus.com"
+	},
+	{
 		"company": "Microsoft Corporation",
         "companyLogo": "/images/logos/microsoft.jpg",
 		"position": "Software Engineering Intern",
@@ -15,11 +26,11 @@
         "companyLogo": "/images/logos/eduhub.png",
 		"position": "Software Engineer",
 		"industry": "Education",
-		"details": "I work with a small team developing educational software solutions for students and teachers. I primarily work on our flagship product EduHub StudySmart.",
-		"skills": ["Flutter", "Firebase", "Vue", "Typescript"],
+		"details": "Currently working on GenAI powered educational software solutions for students and teachers. I primarily work on our flagship product EduHub StudySmart and EezyTeach.",
+		"skills": ["Flutter", "Firebase", "Vue", "Typescript", "Gemini API"],
 		"startDate": "MAY 2024",
-		"endDate": "AUG 2024",
-		"infoUrl": "https://play.google.com/store/apps/details?id=com.vector.eduhub_academy&pli=1"
+		"endDate": "PRESENT",
+		"infoUrl": "https://eduhub.technology"
 	},
 	{
 		"company": "Apps Design Jamaica",

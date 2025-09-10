@@ -1,5 +1,13 @@
 [
     {
+        "name": "LookYah",
+        "description": "Craft custom, stylized messages and share them anywhere with LookYah. Whether it's a heartfelt note, an announcement, or just for laughs, LookYah is the perfect tool to make your message stand out.",
+        "madeWith": ["Typescript", "React", "Firebase"],
+        "tags": ["Messaging", "Customization"],
+        "liveUrl": "https://lookyah.web.app",
+        "sourceUrl": ""
+    },
+    {
         "name": "LectureLytics",
         "description": "A platform that uses generative AI to make note-taking and studying easier and more accessible to students by summarizing lectures and generating study materials. This project won the 2023 Microsoft Hackathon @UTech.",
         "madeWith": ["PaLM 2", "Azure", "GCP", "Typescript", "React"],

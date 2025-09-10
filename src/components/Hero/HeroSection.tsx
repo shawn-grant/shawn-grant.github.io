@@ -16,20 +16,20 @@ function HeroSection() {
             <div className="content">
                 <h3>Hi <span>👋</span>, I'm</h3>
                 <h1 className='title'>{characters || 'Shawn Grant'}</h1>
-                <h2 className='subtitle'>Software Developer</h2>
+                <h2 className='subtitle'>Software Engineer</h2>
                 <br />
                 <div className="socials">
                     <a href='https://github.com/shawn-grant' target='_blank' rel="noreferrer">
                         <i className='bi bi-github' />
                     </a>
-                    <a href='https://www.linkedin.com/in/shawn-grant-431b39109/' target='_blank' rel="noreferrer">
+                    <a href='https://www.linkedin.com/in/shawnrgrant' target='_blank' rel="noreferrer">
                         <i className='bi bi-linkedin' />
                     </a>
                     <a href='https://instagram.com/shawnrgrant' target='_blank' rel="noreferrer">
                         <i className='bi bi-instagram' />
                     </a>
                     <a href='mailto:shawngrant333@gmail.com' target='_blank' rel="noreferrer">
-                        <i className='bi bi-at' />
+                        <i className='bi bi-envelope' />
                     </a>
                 </div>
                 <br />

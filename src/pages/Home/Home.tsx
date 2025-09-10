@@ -20,8 +20,9 @@ export default function HomePage() {
 
       <br />
       <div className="about">
-        I'm a 22yo computer science student & software developer based in Jamaica <img src={jmFlag} alt="" />, with a passion for art and design. <br />
-        I love learning new things and using technology to build solutions to the problems around me.
+        I'm a software engineer based in Jamaica <img src={jmFlag} alt="" />, with a passion for art and design. <br />
+        I love learning new things and using technology to build solutions to the problems around me. <br />
+        I'm a huge fan of Generative AI and its potential to transform industries.
       </div>
       <br />
 

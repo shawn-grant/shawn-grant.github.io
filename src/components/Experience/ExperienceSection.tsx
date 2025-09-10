@@ -18,7 +18,7 @@ export default function ExperienceSection() {
             <div className="content">
 
                 <h1>My Experience</h1>
-                <p>Here's some of the roles I've been in at companies & at school.</p>
+                <p>Here's some of the roles I've worked in.</p>
 
                 <div className="list">
                     {experiences.map((exp, i) =>
