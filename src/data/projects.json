@@ -2,7 +2,7 @@
     {
         "name": "LookYah",
         "description": "Craft custom, stylized messages and share them anywhere with LookYah. Whether it's a heartfelt note, an announcement, or just for laughs, LookYah is the perfect tool to make your message stand out.",
-        "madeWith": ["Typescript", "React", "Firebase"],
+        "madeWith": ["Typescript", "React", "Stripe", "Firebase"],
         "tags": ["Messaging", "Customization"],
         "liveUrl": "https://lookyah.web.app",
         "sourceUrl": ""
@@ -26,7 +26,7 @@
     {
         "name": "CXC StudyBank",
         "description": "An Android app for CSEC and CAPE past papers and resources, Helping students get a headstart to ace their exams. Over 10k installs.",
-        "madeWith": ["Flutter", "Firebase", "Kotlin"],
+        "madeWith": ["Flutter", "Firestore", "Kotlin"],
         "tags": ["Android", "Education", "CXC"],
         "liveUrl": "https://play.google.com/store/apps/details?id=com.cxcstudybank.android",
         "sourceUrl": ""
